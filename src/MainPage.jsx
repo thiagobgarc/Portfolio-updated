@@ -14,7 +14,7 @@ const MainPage = () => {
 
   return ( 
     <>
-    <motion.div className='flex flex-col items-center justify-end absolute top-3 right-10 p-1 rounded-lg px-4 pb-2 shadow-br shadow-[#f8f8f2] bg-gradient-to-br from-gray-800 to-transparent' initial={{ x: 30, opacity: 0 }} animate={{y: 15, x: -15, opacity: 1 }} transition={{ duration: 1 }}>
+    <motion.div className='flex flex-col items-center justify-end absolute top-3 right-5 p-1 rounded-lg px-4 pb-2 shadow-br shadow-[#f8f8f2] bg-gradient-to-br from-gray-800 to-transparent sm:top-3 sm:right-7' initial={{ x: 30, opacity: 0 }} animate={{y: 15, x: -15, opacity: 1 }} transition={{ duration: 1 }}>
     <button onClick={toggleLanguage} className='text-2xl text-[#f8f8f2] text-zinc-300 hover:text-blue-300 hover:scale-125 text-center'>
           {language === 'en' ? (
             <span role="img" aria-label="American Flag">🇺🇸</span>
