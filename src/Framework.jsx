@@ -30,7 +30,7 @@ const frameWorks = [
 
 const Framework = () => {
   return (
-    <motion.div className='flex flex-row gap-2 items-center justify-start absolute top-[12rem] mr-[3rem] right-[5rem]' initial={{ x: -10, opacity: 0 }} animate={{ x: 5, opacity: 1 }} transition={{ duration: 0.75 }}>
+    <motion.div className='flex flex-row gap-2 items-center justify-center w-[70%] lg:w-[30%] sm:w-[70%] sm:mb-[5rem]' initial={{ x: -70, opacity: 0 }} animate={{ x: 5, opacity: 1 }} transition={{ duration: 1.5 }}>
       {frameWorks.map((framework, index) => (
         <img key={index} src={framework} alt={`Framework ${index}`} 
             className={`framework-image hover:scale-150 duration-300`}

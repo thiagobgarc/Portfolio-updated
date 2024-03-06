@@ -15,3 +15,13 @@ body {
   
   /* Add other styles as needed */
 }
+
+.icon-image {
+  width: 5%; /* Adjust the width as needed */
+  border-radius: 50%; /* Makes the image rounded */
+  background-image: linear-gradient(to right, transparent, transparent); /* Gradient background */
+  backdrop-filter: blur(10px); /* Applies a backdrop filter */
+  backdrop-opacity: 0.5; /* Adjust the opacity of the backdrop filter */
+  
+  /* Add other styles as needed */
+}
