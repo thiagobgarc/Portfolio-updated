@@ -25,7 +25,7 @@ const MainPage = () => {
     </motion.div>
     
       <motion.div className='flex flex-col items-center justify-center' initial={{ y: 0, opacity: 0 }} animate={{ y:25, opacity: 1 }} transition={{ duration: 0.8 }}>
-        <img src="/profic-removebg-preview.png" className='lg:w-[15%] rounded-full bg-gradient-to-r from-transparent to-transparent backdrop-filter backdrop-opacity-50 absolute w-[35%] top-[12rem] lg:top-[3rem] sm:top-[12rem] sm:w-[20%] hover:scale-125 hover:shadow hover:shadow-gray-500 duration-300' />
+        <img src="/profic-removebg-preview.png" className='lg:w-[15%] rounded-full bg-gradient-to-r from-transparent to-transparent backdrop-filter backdrop-opacity-50 absolute w-[35%] top-[7rem] lg:top-[3rem] sm:top-[12rem] sm:w-[20%] hover:scale-125 hover:shadow hover:shadow-gray-500 duration-300' />
       </motion.div>
       <Icons />
       <div className='flex flex-col text-white items-center justify-center mt-[1.5rem]'>
